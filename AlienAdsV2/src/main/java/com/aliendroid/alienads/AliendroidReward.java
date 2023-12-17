@@ -270,13 +270,14 @@ public class AliendroidReward {
     public static void LoadRewardFan(Activity activity, String selectBackupAds, String idReward, String idBackupReward) {
 
     }
-    public static void LoadRewardWortise(Activity activity, String selectBackupAds, String idReward, String idBackupReward) {
 
-    }
     public static void ShowRewardFan(Activity activity, String selecBackuptAds, String idReward, String idBackupReward) {
 
     }
     public static void ShowRewardWortise(Activity activity, String selecBackuptAds, String idReward, String idBackupReward) {
+
+    }
+    public static void LoadRewardWortise(Activity activity, String selectBackupAds, String idReward, String idBackupReward) {
 
     }
 }
