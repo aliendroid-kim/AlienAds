@@ -109,6 +109,7 @@ attr actionViewClass
 attr activityChooserViewStyle
 attr adSize
 attr adSizes
+attr adType
 attr adUnitId
 attr alertDialogButtonGroupStyle
 attr alertDialogCenterButtons
@@ -878,6 +879,7 @@ attr popupMenuBackground
 attr popupMenuStyle
 attr popupTheme
 attr popupWindowStyle
+attr positionTargeting
 attr prefixText
 attr prefixTextAppearance
 attr prefixTextColor
@@ -2711,6 +2713,7 @@ id ad_unit
 id add
 id adjust_height
 id adjust_width
+id ads_linearlayout
 id advertiser_textView
 id alertTitle
 id aligned
@@ -3365,6 +3368,7 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout openads
+layout props_ads_management
 layout rewards
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
@@ -4755,6 +4759,7 @@ styleable OnSwipe autoCompleteMode dragDirection dragScale dragThreshold limitBo
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
 styleable PropertySet android_visibility android_alpha layout_constraintTag motionProgress visibilityMode
+styleable PropsAdsManagement adSize adType positionTargeting
 styleable RadialViewGroup materialCircleRadius
 styleable RangeSlider minSeparation values
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle

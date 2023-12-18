@@ -11769,6 +11769,11 @@
         <attr name="motionProgress"/>
         <attr name="layout_constraintTag"/>
     </declare-styleable>
+    <declare-styleable name="PropsAdsManagement">
+        <attr format="string" name="adType"/>
+        <attr format="string" name="positionTargeting"/>
+        <attr format="string" name="adSize"/>
+    </declare-styleable>
     <declare-styleable name="RadialViewGroup">
 
     <!-- Radius indicating how far away from the center of the group the

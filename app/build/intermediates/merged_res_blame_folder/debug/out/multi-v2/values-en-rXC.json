@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "/media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
                     "source": "/home/aliendroid/.gradle/caches/transforms-3/0d48d8c419ef02f5d1bfa5cacb313901/transformed/browser-1.4.0/res/values-en-rXC/values-en-rXC.xml",

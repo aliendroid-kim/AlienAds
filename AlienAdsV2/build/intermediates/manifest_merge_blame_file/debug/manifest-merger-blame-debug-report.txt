@@ -4,39 +4,39 @@
 4
 5    <uses-sdk
 6        android:minSdkVersion="21"
-6-->/media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml
+6-->/media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml
 7        android:targetSdkVersion="30" />
-7-->/media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml
+7-->/media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml
 8
 9    <uses-permission android:name="android.permission.INTERNET" />
-9-->/media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:4:5-67
-9-->/media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:4:22-64
+9-->/media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:4:5-67
+9-->/media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:4:22-64
 10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-10-->/media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:5:5-79
-10-->/media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:5:22-76
+10-->/media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:5:5-79
+10-->/media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:5:22-76
 11    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-11-->/media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:6:5-78
-11-->/media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:6:22-76
+11-->/media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:6:5-78
+11-->/media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:6:22-76
 12    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-12-->/media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:7:5-78
-12-->/media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:7:22-75
+12-->/media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:7:5-78
+12-->/media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:7:22-75
 13
 14    <application android:name="com.aliendroid.alienads.MyApplication" >
-14-->/media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:8:5-21:19
-14-->/media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:9:9-61
+14-->/media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:8:5-21:19
+14-->/media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:9:9-61
 15        <meta-data
-15-->/media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:12:9-14:69
+15-->/media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:12:9-14:69
 16            android:name="com.google.android.gms.version"
-16-->/media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:13:13-58
+16-->/media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:13:13-58
 17            android:value="@integer/google_play_services_version" />
-17-->/media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:14:13-66
+17-->/media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:14:13-66
 18
 19        <activity
-19-->/media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:16:9-18:125
+19-->/media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:16:9-18:125
 20            android:name="com.google.android.gms.ads.AdActivity"
-20-->/media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:17:13-65
+20-->/media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:17:13-65
 21            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
-21-->/media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:18:13-122
+21-->/media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:18:13-122
 22    </application>
 23
 24</manifest>

@@ -112,6 +112,7 @@ int attr actionViewClass 0x0
 int attr activityChooserViewStyle 0x0
 int attr adSize 0x0
 int attr adSizes 0x0
+int attr adType 0x0
 int attr adUnitId 0x0
 int attr alertDialogButtonGroupStyle 0x0
 int attr alertDialogCenterButtons 0x0
@@ -832,6 +833,7 @@ int attr popupMenuBackground 0x0
 int attr popupMenuStyle 0x0
 int attr popupTheme 0x0
 int attr popupWindowStyle 0x0
+int attr positionTargeting 0x0
 int attr prefixText 0x0
 int attr prefixTextAppearance 0x0
 int attr prefixTextColor 0x0
@@ -2623,6 +2625,7 @@ int id ad_unit 0x0
 int id add 0x0
 int id adjust_height 0x0
 int id adjust_width 0x0
+int id ads_linearlayout 0x0
 int id advertiser_textView 0x0
 int id alertTitle 0x0
 int id aligned 0x0
@@ -3164,6 +3167,7 @@ int layout notification_template_icon_group 0x0
 int layout notification_template_part_chronometer 0x0
 int layout notification_template_part_time 0x0
 int layout openads 0x0
+int layout props_ads_management 0x0
 int layout rewards 0x0
 int layout select_dialog_item_material 0x0
 int layout select_dialog_multichoice_material 0x0
@@ -5788,6 +5792,10 @@ int styleable PropertySet_android_visibility 1
 int styleable PropertySet_layout_constraintTag 2
 int styleable PropertySet_motionProgress 3
 int styleable PropertySet_visibilityMode 4
+int[] styleable PropsAdsManagement { 0x0, 0x0, 0x0 }
+int styleable PropsAdsManagement_adSize 0
+int styleable PropsAdsManagement_adType 1
+int styleable PropsAdsManagement_positionTargeting 2
 int[] styleable RadialViewGroup { 0x0 }
 int styleable RadialViewGroup_materialCircleRadius 0
 int[] styleable RangeSlider { 0x0, 0x0 }

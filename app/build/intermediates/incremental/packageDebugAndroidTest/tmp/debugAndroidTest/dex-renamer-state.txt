@@ -1,6 +1,6 @@
-#Fri Aug 11 16:25:46 WIB 2023
-base.0=/media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
-base.1=/media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/5/classes.dex
+#Sun Dec 17 16:58:04 WIB 2023
+base.0=/media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+base.1=/media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/5/classes.dex
 path.0=0/classes.dex
 path.1=5/classes.dex
 renamed.0=classes.dex

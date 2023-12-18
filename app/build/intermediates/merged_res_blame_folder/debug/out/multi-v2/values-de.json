@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml",
+            "outputFile": "/media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml",
             "map": [
                 {
                     "source": "/home/aliendroid/.gradle/caches/transforms-3/2214f4f5205ac4d20333dc6d8ef39738/transformed/appcompat-1.4.1/res/values-de/values-de.xml",
@@ -108,7 +108,7 @@
                     }
                 },
                 {
-                    "source": "/home/aliendroid/.gradle/caches/transforms-3/770c7a6dc0899f5aecefe6abf197fa36/transformed/play-services-ads-22.5.0/res/values-de/values.xml",
+                    "source": "/home/aliendroid/.gradle/caches/transforms-3/42ac00dfdce296a56b55c36a58055c7b/transformed/play-services-ads-22.6.0/res/values-de/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",

@@ -1,57 +1,57 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:2:1-22:12
+ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:2:1-22:12
 	package
-		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:3:5-38
-		INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml
-		INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml
+		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml
+		INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:4:5-67
+ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:5:5-79
+ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:5:5-79
 	android:name
-		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:5:22-76
+		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:5:22-76
 uses-permission#com.google.android.gms.permission.AD_ID
-ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:6:5-78
+ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:6:5-78
 	android:name
-		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:6:22-76
+		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:6:22-76
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:7:5-78
+ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:7:5-78
 	android:name
-		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:7:22-75
+		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:7:22-75
 application
-ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:8:5-21:19
+ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:8:5-21:19
 	android:name
-		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:9:9-61
+		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:9:9-61
 meta-data#com.google.android.gms.version
-ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:12:9-14:69
+ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:12:9-14:69
 	android:value
-		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:14:13-66
+		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:14:13-66
 	android:name
-		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:13:13-58
+		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:13:13-58
 activity#com.google.android.gms.ads.AdActivity
-ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:16:9-18:125
+ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:16:9-18:125
 	android:configChanges
-		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:18:13-122
+		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:18:13-122
 	android:name
-		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml:17:13-65
+		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml:17:13-65
 uses-sdk
-INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml
-INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml
-INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml
-INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml
+INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml
+INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml
+INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml
+INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml
-		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml
-		INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml
+		INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml
+		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml
+		INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml
-		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml
-		INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AdmobSdk/SingleSDKAbmob/AlienAdsV2/src/main/AndroidManifest.xml
+		INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml
+		ADDED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml
+		INJECTED from /media/aliendroid/Master Alien/Multy Ads Master/AlienAds/AlienAds/AlienAdsV2/src/main/AndroidManifest.xml
