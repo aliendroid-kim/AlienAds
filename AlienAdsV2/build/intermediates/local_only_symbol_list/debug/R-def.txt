@@ -146,6 +146,7 @@ style AppSaa
 style AppTheme
 style InterstitialStyle
 style RatingBarStyle
+style SheetDialog
 style seekBarStyle
 styleable BannerView banner_installTitle banner_installColor banner_contentColor banner_bodyColor
 styleable NativeView native_installTitle native_installColor native_contentColor native_bodyColor native_installRadius
