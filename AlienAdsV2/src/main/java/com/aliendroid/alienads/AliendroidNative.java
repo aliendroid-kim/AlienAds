@@ -45,6 +45,7 @@ import java.util.List;
 
 public class AliendroidNative {
     private static NativeAd nativeAd;
+    private static NativeAd nativeAdPropf;
     public static OnLoadSmallNativesAdmob onLoadSmallNativesAdmob;
     public static OnLoadSmallNativesApplovinMax onLoadSmallNativesApplovinMax;
     public static OnLoadSmallNativesFacebook onLoadSmallNativesFacebook;
@@ -105,13 +106,13 @@ public class AliendroidNative {
                                             builder3.forNativeAd(new NativeAd.OnNativeAdLoadedListener() {
                                                 @Override
                                                 public void onNativeAdLoaded(@NonNull NativeAd nativeAds) {
-                                                    if (nativeAd != null) {
-                                                        nativeAd.destroy();
+                                                    if (nativeAdPropf != null) {
+                                                        nativeAdPropf.destroy();
                                                     }
-                                                    nativeAd = nativeAds;
+                                                    nativeAdPropf = nativeAds;
                                                     NativeAdView adView = (NativeAdView) activity.getLayoutInflater()
                                                             .inflate(R.layout.admob_small_native, null);
-                                                    populateNativeAdView(nativeAds, adView);
+                                                    populateNativeAdViewProps(nativeAds, adView);
                                                     layNative.removeAllViews();
                                                     layNative.addView(adView);
                                                 }
@@ -211,13 +212,13 @@ public class AliendroidNative {
                                             builder3.forNativeAd(new NativeAd.OnNativeAdLoadedListener() {
                                                 @Override
                                                 public void onNativeAdLoaded(@NonNull NativeAd nativeAds) {
-                                                    if (nativeAd != null) {
-                                                        nativeAd.destroy();
+                                                    if (nativeAdPropf != null) {
+                                                        nativeAdPropf.destroy();
                                                     }
-                                                    nativeAd = nativeAds;
+                                                    nativeAdPropf = nativeAds;
                                                     NativeAdView adView = (NativeAdView) activity.getLayoutInflater()
                                                             .inflate(R.layout.admob_big_native, null);
-                                                    populateNativeAdView(nativeAds, adView);
+                                                    populateNativeAdViewProps(nativeAds, adView);
                                                     layNative.removeAllViews();
                                                     layNative.addView(adView);
                                                 }
@@ -255,20 +256,19 @@ public class AliendroidNative {
 
     }
 
-
     public static void MediumNativeAlien(Activity activity, RelativeLayout layNative, String selectAdsBackup, String nativeId, String idNativeBackup) {
         String getNativeId = PropsAdsManagement.getNativeAdsId(nativeId);
         AdLoader.Builder builder3 = new AdLoader.Builder(activity, getNativeId);
         builder3.forNativeAd(new NativeAd.OnNativeAdLoadedListener() {
             @Override
             public void onNativeAdLoaded(@NonNull NativeAd nativeAds) {
-                if (nativeAd != null) {
-                    nativeAd.destroy();
+                if (nativeAdPropf != null) {
+                    nativeAdPropf.destroy();
                 }
-                nativeAd = nativeAds;
+                nativeAdPropf = nativeAds;
                 NativeAdView adView = (NativeAdView) activity.getLayoutInflater()
                         .inflate(R.layout.admob_big_native, null);
-                populateNativeAdView(nativeAds, adView);
+                populateNativeAdViewProps(nativeAds, adView);
                 layNative.removeAllViews();
                 layNative.addView(adView);
             }
@@ -342,13 +342,13 @@ public class AliendroidNative {
         builder3.forNativeAd(new NativeAd.OnNativeAdLoadedListener() {
             @Override
             public void onNativeAdLoaded(@NonNull NativeAd nativeAds) {
-                if (nativeAd != null) {
-                    nativeAd.destroy();
+                if (nativeAdPropf != null) {
+                    nativeAdPropf.destroy();
                 }
-                nativeAd = nativeAds;
+                nativeAdPropf = nativeAds;
                 NativeAdView adView = (NativeAdView) activity.getLayoutInflater()
                         .inflate(R.layout.admob_small_rectangle_native, null);
-                populateNativeAdView(nativeAds, adView);
+                populateNativeAdViewProps(nativeAds, adView);
                 layNative.removeAllViews();
                 layNative.addView(adView);
             }
@@ -467,13 +467,13 @@ public class AliendroidNative {
                                         builder3.forNativeAd(new NativeAd.OnNativeAdLoadedListener() {
                                             @Override
                                             public void onNativeAdLoaded(@NonNull NativeAd nativeAds) {
-                                                if (nativeAd != null) {
-                                                    nativeAd.destroy();
+                                                if (nativeAdPropf != null) {
+                                                    nativeAdPropf.destroy();
                                                 }
-                                                nativeAd = nativeAds;
+                                                nativeAdPropf = nativeAds;
                                                 NativeAdView adView = (NativeAdView) activity.getLayoutInflater()
                                                         .inflate(R.layout.admob_small_rectangle_native, null);
-                                                populateNativeAdView(nativeAds, adView);
+                                                populateNativeAdViewProps(nativeAds, adView);
                                                 layNative.removeAllViews();
                                                 layNative.addView(adView);
                                             }
@@ -520,13 +520,13 @@ public class AliendroidNative {
         builder3.forNativeAd(new NativeAd.OnNativeAdLoadedListener() {
             @Override
             public void onNativeAdLoaded(@NonNull NativeAd nativeAds) {
-                if (nativeAd != null) {
-                    nativeAd.destroy();
+                if (nativeAdPropf != null) {
+                    nativeAdPropf.destroy();
                 }
-                nativeAd = nativeAds;
+                nativeAdPropf = nativeAds;
                 NativeAdView adView = (NativeAdView) activity.getLayoutInflater()
                         .inflate(R.layout.admob_small_rectangle_native, null);
-                populateNativeAdView(nativeAds, adView);
+                populateNativeAdViewProps(nativeAds, adView);
                 layNative.removeAllViews();
                 layNative.addView(adView);
             }
@@ -613,6 +613,70 @@ public class AliendroidNative {
     }
 
     private static void populateNativeAdView(NativeAd nativeAd, NativeAdView adView) {
+        adView.setMediaView((MediaView) adView.findViewById(R.id.ad_media));
+        adView.setHeadlineView(adView.findViewById(R.id.ad_headline));
+        adView.setBodyView(adView.findViewById(R.id.ad_body));
+        adView.setCallToActionView(adView.findViewById(R.id.ad_call_to_action));
+        adView.setIconView(adView.findViewById(R.id.ad_app_icon));
+        adView.setPriceView(adView.findViewById(R.id.ad_price));
+        adView.setStarRatingView(adView.findViewById(R.id.ad_stars));
+        adView.setStoreView(adView.findViewById(R.id.ad_store));
+        adView.setAdvertiserView(adView.findViewById(R.id.ad_advertiser));
+        ((TextView) adView.getHeadlineView()).setText(nativeAd.getHeadline());
+        adView.getMediaView().setMediaContent(nativeAd.getMediaContent());
+        if (nativeAd.getBody() == null) {
+            adView.getBodyView().setVisibility(View.INVISIBLE);
+        } else {
+            adView.getBodyView().setVisibility(View.VISIBLE);
+            ((TextView) adView.getBodyView()).setText(nativeAd.getBody());
+        }
+
+        if (nativeAd.getCallToAction() == null) {
+            adView.getCallToActionView().setVisibility(View.INVISIBLE);
+        } else {
+            adView.getCallToActionView().setVisibility(View.VISIBLE);
+            ((Button) adView.getCallToActionView()).setText(nativeAd.getCallToAction());
+        }
+
+        if (nativeAd.getIcon() == null) {
+            adView.getIconView().setVisibility(View.GONE);
+        } else {
+            ((ImageView) adView.getIconView()).setImageDrawable(
+                    nativeAd.getIcon().getDrawable());
+            adView.getIconView().setVisibility(View.VISIBLE);
+        }
+
+        if (nativeAd.getPrice() == null) {
+            adView.getPriceView().setVisibility(View.INVISIBLE);
+        } else {
+            adView.getPriceView().setVisibility(View.VISIBLE);
+            ((TextView) adView.getPriceView()).setText(nativeAd.getPrice());
+        }
+
+        if (nativeAd.getStore() == null) {
+            adView.getStoreView().setVisibility(View.INVISIBLE);
+        } else {
+            adView.getStoreView().setVisibility(View.VISIBLE);
+            ((TextView) adView.getStoreView()).setText(nativeAd.getStore());
+        }
+
+        if (nativeAd.getStarRating() == null) {
+            adView.getStarRatingView().setVisibility(View.INVISIBLE);
+        } else {
+            ((RatingBar) adView.getStarRatingView())
+                    .setRating(nativeAd.getStarRating().floatValue());
+            adView.getStarRatingView().setVisibility(View.VISIBLE);
+        }
+
+        if (nativeAd.getAdvertiser() == null) {
+            adView.getAdvertiserView().setVisibility(View.GONE);
+        } else {
+            ((TextView) adView.getAdvertiserView()).setText(nativeAd.getAdvertiser());
+            adView.getAdvertiserView().setVisibility(View.GONE);
+        }
+        adView.setNativeAd(nativeAd);
+    }
+    private static void populateNativeAdViewProps(NativeAd nativeAd, NativeAdView adView) {
         adView.setMediaView((MediaView) adView.findViewById(R.id.ad_media));
         adView.setHeadlineView(adView.findViewById(R.id.ad_headline));
         adView.setBodyView(adView.findViewById(R.id.ad_body));

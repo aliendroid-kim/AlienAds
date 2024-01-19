@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.kimganteng.myapplication"
+3    package="com.learnabc.belajarabcindonesia"
 4    android:versionCode="1"
-5    android:versionName="1.0" >
+5    android:versionName="1.2" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
@@ -184,7 +184,7 @@
 98-->[com.google.android.gms:play-services-ads-lite:22.6.0] /home/aliendroid/.gradle/caches/transforms-3/b10124ce0fcdf0c189aaa2b95d7030db/transformed/play-services-ads-lite-22.6.0/AndroidManifest.xml:63:9-68:43
 99            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
 99-->[com.google.android.gms:play-services-ads-lite:22.6.0] /home/aliendroid/.gradle/caches/transforms-3/b10124ce0fcdf0c189aaa2b95d7030db/transformed/play-services-ads-lite-22.6.0/AndroidManifest.xml:64:13-76
-100            android:authorities="com.kimganteng.myapplication.mobileadsinitprovider"
+100            android:authorities="com.learnabc.belajarabcindonesia.mobileadsinitprovider"
 100-->[com.google.android.gms:play-services-ads-lite:22.6.0] /home/aliendroid/.gradle/caches/transforms-3/b10124ce0fcdf0c189aaa2b95d7030db/transformed/play-services-ads-lite-22.6.0/AndroidManifest.xml:65:13-73
 101            android:exported="false"
 101-->[com.google.android.gms:play-services-ads-lite:22.6.0] /home/aliendroid/.gradle/caches/transforms-3/b10124ce0fcdf0c189aaa2b95d7030db/transformed/play-services-ads-lite-22.6.0/AndroidManifest.xml:66:13-37
@@ -234,7 +234,7 @@
 125-->[androidx.work:work-runtime:2.7.1] /home/aliendroid/.gradle/caches/transforms-3/1dd7d7133d7d7edfeeef539e79f7768b/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
 126            android:name="androidx.startup.InitializationProvider"
 126-->[androidx.work:work-runtime:2.7.1] /home/aliendroid/.gradle/caches/transforms-3/1dd7d7133d7d7edfeeef539e79f7768b/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
-127            android:authorities="com.kimganteng.myapplication.androidx-startup"
+127            android:authorities="com.learnabc.belajarabcindonesia.androidx-startup"
 127-->[androidx.work:work-runtime:2.7.1] /home/aliendroid/.gradle/caches/transforms-3/1dd7d7133d7d7edfeeef539e79f7768b/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
 128            android:exported="false" >
 128-->[androidx.work:work-runtime:2.7.1] /home/aliendroid/.gradle/caches/transforms-3/1dd7d7133d7d7edfeeef539e79f7768b/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37

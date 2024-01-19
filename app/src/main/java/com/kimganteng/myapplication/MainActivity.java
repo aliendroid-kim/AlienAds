@@ -46,62 +46,13 @@ public class MainActivity extends AppCompatActivity {
             AlienViewAds.OpenApp(MainActivity.this,AppIDViewAds);
         }
          */
-        AliendroidInitialize.SelectAdsAdmob(this,Select_Backup_Ads,Backup_Initialize);
+        AliendroidInitialize.SelectAdsAdmob(this,Select_Backup_Ads,"");
+        AliendroidInitialize.SelectAdsAlienMediation(this,Select_Backup_Ads,"","");
         AlienGDPR.loadGdpr(this,Select_Main_Ads,true);
-        AliendroidIntertitial.LoadIntertitialAdmob(MainActivity.this,Select_Backup_Ads,MainIntertitial,BackupIntertitial,
-                "","","","","");
+        AliendroidIntertitial.LoadIntertitialAdmob(MainActivity.this,Select_Backup_Ads,MainIntertitial,BackupIntertitial
+               ,"","","","","");
 
-        AliendroidIntertitial.onShowInterstitialAdmob = new OnShowInterstitialAdmob() {
-            @Override
-            public void onAdSuccess() {
-                AliendroidIntertitial.onFullScreenContentCallbackAdmob = new OnFullScreenContentCallbackAdmob() {
-                    @Override
-                    public void onAdClicked() {
-
-                    }
-
-                    @Override
-                    public void onAdDismissedFullScreenContent() {
-                        Intent open = new Intent(MainActivity.this,BannerActivity.class);
-                        startActivity(open);
-                    }
-
-                    @Override
-                    public void onAdImpression() {
-
-                    }
-
-                    @Override
-                    public void onAdShowedFullScreenContent() {
-
-                    }
-
-                    @Override
-                    public void onAdFailedToShowFullScreenContent() {
-
-                    }
-                };
-            }
-
-            @Override
-            public void onAdFailedShow() {
-                Intent open = new Intent(MainActivity.this,BannerActivity.class);
-                startActivity(open);
-            }
-        };
-
-        AliendroidReward.LoadRewardAdmob(this,Select_Backup_Ads,MainRewards,BackupReward);
-        AliendroidReward.onLoadRewardsAdmob = new OnLoadRewardsAdmob() {
-            @Override
-            public void onAdFailedToLoad() {
-
-            }
-
-            @Override
-            public void onAdLoaded(String error) {
-
-            }
-        };
+        AliendroidReward.LoadRewardAlienMediation(this,Select_Backup_Ads,MainRewards,BackupReward);
 
     }
 
@@ -131,12 +82,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void INTERSTITIAL(View view){
-        AliendroidIntertitial.ShowIntertitialAdmob(MainActivity.this,Select_Backup_Ads,MainIntertitial,BackupIntertitial,0,"",
-        "","","","");
+        AliendroidIntertitial.ShowIntertitialAdmob(MainActivity.this,Select_Backup_Ads,MainIntertitial,BackupIntertitial,0
+                ,"","","","","");
     }
 
     public void REWARD(View view){
-        AliendroidReward.ShowRewardAdmob(MainActivity.this,Select_Backup_Ads,MainRewards,BackupReward);
+        AliendroidReward.ShowRewardAlienMediation(MainActivity.this,Select_Backup_Ads,MainRewards,BackupReward);
     }
 
     public void onBackPressed(){

@@ -96,6 +96,9 @@ public class AliendroidInitialize {
                 }
             }
         });
+        if (selectAdsBackup.equals("ALIEN-M")){
+            PropsAdsManagement.initializeAdsMapping(activity);
+        }
     }
 
     public static void SelectAdsGoogleAds(Activity activity, String selectAdsBackup, String idInitialize) {

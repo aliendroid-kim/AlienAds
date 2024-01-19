@@ -31,66 +31,15 @@ public class BannerActivity extends AppCompatActivity {
          */
         AliendroidBanner.SmallBannerAdmob(this, laySmallAds,Select_Backup_Ads,MainBanner,BackupBanner,
                 "","","","","");
-        AliendroidBanner.onLoadBannerAdmob = new OnLoadBannerAdmob() {
-            @Override
-            public void onAdLoaded() {
-                Toast.makeText(BannerActivity.this,"Iklan Terload",
-                        Toast.LENGTH_SHORT).show();
-            }
 
-            @Override
-            public void onAdFailedToLoad(String error) {
-                Toast.makeText(BannerActivity.this,"Tidak Ada Iklan",
-                        Toast.LENGTH_SHORT).show();
-            }
-
-            @Override
-            public void onAdOpened() {
-
-            }
-
-            @Override
-            public void onAdClicked() {
-
-            }
-
-            @Override
-            public void onAdClosed() {
-
-            }
-        };
 
         /*
         Medium Banner 300x250
          */
-        AliendroidMediumBanner.MediumBannerAdmob(this, layMediumAds,Select_Backup_Ads,MainBanner,BackupBanner,
+        AliendroidMediumBanner.MediumBannerAdmob(this, layMediumAds,Select_Backup_Ads,MainBanner,
+                BackupBanner,
                 "","","","","");
-        AliendroidMediumBanner.onLoadBannerAdmob = new OnLoadBannerAdmob() {
-            @Override
-            public void onAdLoaded() {
 
-            }
-
-            @Override
-            public void onAdFailedToLoad(String error) {
-
-            }
-
-            @Override
-            public void onAdOpened() {
-
-            }
-
-            @Override
-            public void onAdClicked() {
-
-            }
-
-            @Override
-            public void onAdClosed() {
-
-            }
-        };
 
     }
 }

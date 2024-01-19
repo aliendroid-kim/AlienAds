@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kimganteng.myapplication"
+    package="com.learnabc.belajarabcindonesia"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.2" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -97,7 +97,7 @@
 
         <provider
             android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-            android:authorities="com.kimganteng.myapplication.mobileadsinitprovider"
+            android:authorities="com.learnabc.belajarabcindonesia.mobileadsinitprovider"
             android:exported="false"
             android:initOrder="100" />
 
@@ -124,7 +124,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.kimganteng.myapplication.androidx-startup"
+            android:authorities="com.learnabc.belajarabcindonesia.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.work.WorkManagerInitializer"

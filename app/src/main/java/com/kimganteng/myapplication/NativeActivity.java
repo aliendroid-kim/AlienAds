@@ -24,25 +24,12 @@ public class NativeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_native);
 
         RelativeLayout laySmallAds = findViewById(R.id.laySmallNatives);
-        AliendroidNative.SmallNativeAdmob(this, laySmallAds,Select_Backup_Ads,MainNatives,BackupNatives,
-                "","","","","");
+        AliendroidNative.SmallNativeAdmob(this, laySmallAds,Select_Backup_Ads,MainNatives,BackupNatives
+                ,"","","","","");
 
         RelativeLayout layMediumAds = findViewById(R.id.layMediumNatives);
-        AliendroidNative.MediumNativeAdmob(this, layMediumAds,Select_Backup_Ads,MainNatives,BackupNatives,
-                "","","","","");
-        AliendroidNative.onLoadMediumNativesAdmob = new OnLoadMediumNativesAdmob() {
-            @Override
-            public void onNativeAdLoaded() {
-                Toast.makeText(NativeActivity.this,"Iklan Terload",
-                        Toast.LENGTH_SHORT).show();
-            }
-
-            @Override
-            public void onAdFailedToLoad(String error) {
-                Toast.makeText(NativeActivity.this,"Iklan Gagal Terload",
-                        Toast.LENGTH_SHORT).show();
-            }
-        };
+        AliendroidNative.MediumNativeAdmob(this, layMediumAds,Select_Backup_Ads,MainNatives,BackupNatives
+                ,"","","","","");
 
     }
 }
