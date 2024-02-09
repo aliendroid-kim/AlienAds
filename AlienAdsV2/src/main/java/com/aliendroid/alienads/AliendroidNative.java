@@ -27,7 +27,7 @@ import com.aliendroid.alienads.interfaces.natives.OnLoadSmallNativesApplovinMax;
 import com.aliendroid.alienads.interfaces.natives.OnLoadSmallNativesFacebook;
 import com.aliendroid.alienads.interfaces.natives.OnLoadSmallNativesStartApp;
 
-import com.bumptech.glide.Glide;
+
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdLoader;
 import com.google.android.gms.ads.AdRequest;
@@ -38,10 +38,6 @@ import com.google.android.gms.ads.nativead.NativeAd;
 import com.google.android.gms.ads.nativead.NativeAdOptions;
 import com.google.android.gms.ads.nativead.NativeAdView;
 import com.props.adsmanager.PropsAdsManagement;
-
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 
 public class AliendroidNative {
     private static NativeAd nativeAd;
